@@ -29,7 +29,12 @@
         <activity android:name=".StartDay.ComfrimationStockActivity" />
         <activity android:name=".StartVisit.StartVisitActivity" />
         <activity android:name=".StartVisit.SelectPosActivity" />
-        <activity android:name=".StartVisit.ViewPosActivity"></activity>
+        <activity android:name=".StartVisit.ViewPosActivity" />
+        <activity android:name=".EndDay.EndDayActivitiy" />
+        <activity android:name=".EndDay.ReturnStockActivitiy" />
+        <activity android:name=".EndDay.ReviewStockEndActivitiy" />
+        <activity android:name=".Upload.UploadActivity" />
+        <activity android:name=".ReviewStock.ReviewStockActivity"></activity>
     </application>
 
 </manifest>
