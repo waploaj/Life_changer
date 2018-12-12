@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "769170342073",
+    "firebase_url": "https://pmidbcustom.firebaseio.com",
+    "project_id": "pmidbcustom",
+    "storage_bucket": "pmidbcustom.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:769170342073:android:7abe1c37f23020e3",
+        "android_client_info": {
+          "package_name": "com.example.al_khadhil.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "769170342073-pkj7gpimal8o66vbhmtkn1n7t5os7pgh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyXjGfdKK4GrtWv2qcdj5iYmlkHwsugQ4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

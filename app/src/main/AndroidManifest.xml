@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.al_khadhil.myapplication">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Authentication.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Profile.EditProfileActivity" />
+        <activity android:name=".Profile.ViewProfileActivity" />
+        <activity android:name=".Profile.ViewMessageActivity" />
+        <activity android:name=".StartDay.StartDayActivity" />
+        <activity android:name=".StartDay.RegisterProductActivity" />
+        <activity android:name=".StartDay.RegisterStockActivity" />
+        <activity android:name=".StartDay.ReviewActivity" />
+        <activity android:name=".StartDay.ComfrimationStockActivity" />
+        <activity android:name=".StartVisit.StartVisitActivity" />
+        <activity android:name=".StartVisit.SelectPosActivity" />
+        <activity android:name=".StartVisit.ViewPosActivity"></activity>
+    </application>
+
+</manifest>
